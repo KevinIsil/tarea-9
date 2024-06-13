@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: bisque;
+}
+h1{
+    font-size: 60px;
+    color: darkred;
+    padding-left: 200px;
+}
+#menu ul{
+    display: flex; 
+    flex-direction: row;
+}
+#menu li{
+    list-style-type: none;
+    margin: 35px;
+}
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+    gap: 30px;
+}
+#info{
+    margin-top: -20px;
+}
+.mapa{
+    border: 1px solid black;
+    height: 350px;
+    margin-top: 10px;
+}
+h2{
+    color: crimson;
+}
+table{
+    border-collapse: collapse;
+}
+table tr th{
+    display: flex;
+    justify-content: left;
+}
+input{
+    width: 300px;
+    height: 35px;
+}
+#mensaje{
+    width: 300px;
+    height: 140px;
+}
+#boton{
+    margin-top: 5px;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    background-color: rgb(126, 33, 33);
+    color: white;
+}
+.peru h4{
+    font-size: 30px;
+}
